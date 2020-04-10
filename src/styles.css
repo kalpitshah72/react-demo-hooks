@@ -1,0 +1,60 @@
+#root,
+.container,
+.onBoard-container {
+    height: 100%;
+}
+
+.menu .react-toggle-track-check,
+.menu .react-toggle-track-x {
+    height: 0;
+}
+
+.theme-toggle.react-toggle--checked .react-toggle-track {
+    background-color: white;
+}
+
+.theme-toggle.react-toggle--checked .react-toggle-track {
+    background-color: darkblue;
+}
+
+.onBoard-container.light {
+    background: #F5F6FA !important;
+}
+
+.onBoard-container.dark {
+    background: #282C35 !important;
+}
+
+.onBoard-container {
+    background: #F5F6FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.onBoard-container .card {
+    margin: 5% auto;
+    width: 400px;
+}
+
+.onBoard-container .ant-card-body {
+        text-align: center;
+}
+
+.onBoard-container .submit-btn {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.container-div {
+    padding: 50px 50px 0 50px;
+}
+
+.ant-input-number-handler-wrap {
+    display: none;
+}
+
+.ant-input-number {
+    width: 100%;
+}
